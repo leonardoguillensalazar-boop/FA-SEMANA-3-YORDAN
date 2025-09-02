@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEMAN 3 YORDAN", "SEMAN 3 YORDAN\SEMAN 3 YORDAN.csproj", "{F58440FA-1497-404F-A440-8CFF06F20DCE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SEMAN3 YORDAN_PYTHON", "SEMAN3 YORDAN_PYTHON\SEMAN3 YORDAN_PYTHON.pyproj", "{00D07371-1576-485B-8099-A20C4E5598A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F58440FA-1497-404F-A440-8CFF06F20DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58440FA-1497-404F-A440-8CFF06F20DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58440FA-1497-404F-A440-8CFF06F20DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58440FA-1497-404F-A440-8CFF06F20DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D07371-1576-485B-8099-A20C4E5598A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D07371-1576-485B-8099-A20C4E5598A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6748B7D9-20D2-4085-839E-477FAB0FB6C8}
+	EndGlobalSection
+EndGlobal

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SEMAN_3_YORDAN
@@ -51,8 +52,11 @@ namespace SEMAN_3_YORDAN
 
         static void ejer4()
         {
-        }
+                Console.Write("Ingrese un numero decimal: ");
+                double num = double.Parse(Console.ReadLine());
 
+                double raiz = Match.Sqrt(num);
+            }
         static void ejer5()
         {
         }

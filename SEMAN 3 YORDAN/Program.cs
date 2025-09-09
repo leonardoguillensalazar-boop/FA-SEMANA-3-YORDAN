@@ -35,7 +35,7 @@ namespace SEMAN_3_YORDAN
         }
 
         static void ejer3()
-        {
+            {
                 Console.Write("Ingrese número 1: ");
                 int num1 = int.Parse(Console.ReadLine());
 
@@ -44,26 +44,35 @@ namespace SEMAN_3_YORDAN
 
                 double divi = (double)num1 / (double)num2;
 
-                Console.WriteLine("Suma: "+(num1 + num2));
+                Console.WriteLine("Suma: " + (num1 + num2));
                 Console.WriteLine("Resta: " + (num1 - num2));
                 Console.WriteLine("Multiplicación: " + (num1 * num2));
-                Console.WriteLine("División: " + (divi);
+                NewMethod();
+
+                static void ejer4()
+                {
+                    Console.Write("Ingrese un numero decimal: ");
+                    double num = double.Parse(Console.ReadLine());
+
+                    double raiz = Match.Sqrt(num);
+
+                    static void ejer5()
+                    {
+                        Console.WriteLine("Ingrese un numero: ");
+                        string num = Console.ReadLine();
+
+                        int entero = int.Parse(num);
+                        double
+                    }
+
+                    static void ejer6()
+                    {
+                    }
+
+                }
+
+                void NewMethod()
+                {
+                    Console.WriteLine("División: " + (divi);
+                }
             }
-
-        static void ejer4()
-        {
-                Console.Write("Ingrese un numero decimal: ");
-                double num = double.Parse(Console.ReadLine());
-
-                double raiz = Match.Sqrt(num);
-            }
-        static void ejer5()
-        {
-        }
-
-        static void ejer6()
-        {
-        }
-
-    }
-}

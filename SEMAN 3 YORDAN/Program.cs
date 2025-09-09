@@ -25,10 +25,12 @@ namespace SEMAN_3_YORDAN
             carrera = Console.ReadLine();
 
             Console.WriteLine($"\n{nombre}, Bienvenido al curso de Fundamentos de Algoritmo de la carrera {carrera}");
-        }
+            //consola
+        
 
         static void ejer2()
         {
+                Console.WriteLine(
         }
 
         static void ejer3()

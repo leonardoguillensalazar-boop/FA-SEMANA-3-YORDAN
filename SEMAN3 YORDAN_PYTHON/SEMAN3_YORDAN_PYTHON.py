@@ -4,4 +4,5 @@
 
     print(f"\n{nombre}, Bienvenido al curso de Fundamentos de Algoritmo de la carrera{carrera}")
 
-ejer1()
+def ejer2():
+    print("\"Leonardo\"")
